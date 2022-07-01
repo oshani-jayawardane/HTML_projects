@@ -52,16 +52,16 @@ _additional files are not uploaded to the folder_ <br/>
     
 12. Getting files - ex: creating an html doc with a form and getting form data
     * step 1 - create a .html file with a form.
-    * step 2 - add method="post" and action="/" if sending data to the root route or any preffered route
+    * step 2 - add **method="post"** and **action="/"** if sending data to the root route or any preffered route
     * step 3 - name the "name" variables in the input field of the form with the names used to access form data in the server
-    * step 4 - inside app.get - function - add: res.sendFile(__dirname + "/HTMLfileName.html");
+    * step 4 - inside app.get - function - add: **res.sendFile(__dirname + "/HTMLfileName.html");**
 
 13. step 5 - to **handle post requests** coming to the home route use app.post method
     * install body-parser - inside the current folder - **npm install body-parser**
     * require body-parser - const bodyParser = **require("body-parser");**
     * set up body-parser - **app.use(bodyParser.urlencoded({extended:true}));**
     * _body-parder has a few modes: ex: bodyParser.text(), bodyParser.json(), bodyParser.urlencoded()_
-    * <br/>
+    <br/>
     * **app.post("/", function(req, res){ console.log(req.body); console.log(req.body.formNameName); });**
     * can also use res.send inside app.post to send back any results
     * **summary - app.get is to get the file, app.post is to get data and post back results**

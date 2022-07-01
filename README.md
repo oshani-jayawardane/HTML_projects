@@ -46,7 +46,7 @@ _additional files are not uploaded to the folder_ <br/>
 
 11. Creating **Different Routes**
     * app.get("/contact", function(req, res) { 
-    * // res.send("<h2>contact me at: oshani.jayawardane@gmail.com</h2>"); 
+    * res.send("contact me at: oshani.jayawardane@gmail.com"); // can pass html too with tags 
     * });
     * localhost:3000/contact
     

@@ -61,7 +61,6 @@ _additional files are not uploaded to the folder_ <br/>
     * require body-parser - const bodyParser = **require("body-parser");**
     * set up body-parser - **app.use(bodyParser.urlencoded({extended:true}));**
     * _body-parder has a few modes: ex: bodyParser.text(), bodyParser.json(), bodyParser.urlencoded()_
-    <br/>
     * **app.post("/", function(req, res){ console.log(req.body); console.log(req.body.formNameName); });**
     * can also use res.send inside app.post to send back any results
     * **summary - app.get is to get the file, app.post is to get data and post back results**

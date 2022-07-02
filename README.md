@@ -55,6 +55,7 @@ _additional files are not uploaded to the folder_ <br/>
     * step 2 - add **method="post"** and **action="/"** if sending data to the root route or any preffered route
     * step 3 - name the "name" variables in the input field of the form with the names used to access form data in the server
     * step 4 - inside app.get - function - add: **res.sendFile(__dirname + "/HTMLfileName.html");**
+    * **NOTE: we can't have multiple res.send s inside one file. but we can wrapa text in res.write tags and include one res.send **
 
 13. step 5 - to **handle post requests** coming to the home route use app.post method
     * install body-parser - inside the current folder - **npm install body-parser**

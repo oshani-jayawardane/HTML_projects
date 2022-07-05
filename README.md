@@ -1,4 +1,11 @@
 # Web Development projects
+## Documentation
+
+SQL - https://www.w3schools.com/sql/ <br/>
+MongoDB CRUD - https://www.mongodb.com/docs/manual/crud/ <br/>
+MongoDB Drivers - https://www.mongodb.com/docs/drivers/drivers/ <br/>
+EJS (Embedded Javascript Templating) - https://ejs.co/ <br/>
+
 ## Node Tutorial
 ### [Introduction To Node](https://github.com/oshani-jayawardane/HTML_projects/tree/main/intro-to-node)
 ### [Express.js](https://github.com/oshani-jayawardane/HTML_projects/tree/main/my-express-server)

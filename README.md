@@ -8,6 +8,7 @@ MongoDB Drivers for Node earlier version - https://mongodb.github.io/node-mongod
 (node.js driver -> quick start / quick references) <br/>
 Mongoose - https://mongoosejs.com/docs/api/model.html <br/>
 EJS (Embedded Javascript Templating) - https://ejs.co/ <br/>
+Lodash - https://lodash.com/docs/4.17.15
 
 ## Node Tutorial
 ### [Introduction To Node](https://github.com/oshani-jayawardane/HTML_projects/tree/main/intro-to-node)

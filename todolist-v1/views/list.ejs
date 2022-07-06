@@ -1,0 +1,25 @@
+<%- include("header") -%>
+
+<div class="box" id="heading">
+    <h1> <%= listTitle %> </h1>
+    <!-- <h2>To Do List</h2> -->
+</div>
+
+<div class="box">
+
+    <% for(var i = 0; i < newListItems.length; i++){ %>
+    <div class="item">
+        <input type="checkbox">
+        <p><%= newListItems[i] %></p>
+    </div>
+    <% } %>
+
+    <form class="item" action="/" method="post">
+        <input type="text" name="newItem" placeholder="Add a Task" autocomplete="off">
+        <button type="submit" name="list" value=<%= listTitle %>>+</button>
+        <!-- we are renaming the button as list and adding a dynamic value to the button so we can call it in the backend -->
+    </form>
+
+</div>
+
+<%- include("footer") -%>

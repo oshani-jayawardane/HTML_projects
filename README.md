@@ -80,11 +80,13 @@ _additional files are not uploaded to the folder_ <br/>
 ## MongoDB
 ### Terminology Breakdown
 
-     * You run **mongod** to start your server.
-     * The MongoDB server listens for connections from clients on port 27017, and stores data in the /data/db directory when you use **mongod**.
-     * MongoDB Atlas runs **mongod** for you, so you don’t need to run the server yourself.
-     * **mongo** is the shell or the client. It’s a javascript interface that you can use to interact with the MongoDB server (**mongod**).
-     * As of June 2020, it was superseded by the new Mongo Shell, **mongosh**
-     * **mongosh** has improved syntax highlighting, command history and logging.
-     * the shell, whichever you use, is just a way to communicate with your database cluster.
-     * **mongo** is a proxy that sits between the client application (mongo/mongosh) and a sharded database cluster, that is multiple mongod replica sets.
+* You run **mongod** to start your server.
+* The MongoDB server listens for connections from clients on port 27017, and stores data in the /data/db directory when you use **mongod**.
+* MongoDB Atlas runs **mongod** for you, so you don’t need to run the server yourself.
+* **mongo** is the shell or the client. It’s a javascript interface that you can use to interact with the MongoDB server (**mongod**).
+* As of June 2020, it was superseded by the new Mongo Shell, **mongosh**
+* **mongosh** has improved syntax highlighting, command history and logging.
+* the shell, whichever you use, is just a way to communicate with your database cluster.
+* **mongo** is a proxy that sits between the client application (mongo/mongosh) and a sharded database cluster, that is multiple mongod replica sets.
+
+# Get this all into a pdf

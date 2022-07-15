@@ -1,16 +1,23 @@
 # Web Development projects
 ## Documentation
 
+Bootstrap font awesome CDN - https://www.bootstrapcdn.com/fontawesome/ <br/>
+Bootswatch templates - https://bootswatch.com/ <br/>
+CSS selectors - https://www.w3schools.com/cssref/css_selectors.asp <br/>
+<br/>
 Node API Documentation - https://nodejs.org/api/ <br/>
-EJS- https://expressjs.com/en/api.html <br/>
-Using EJS with Express - https://github.com/mde/ejs/wiki/Using-EJS-with-Express <br/>
+Express- https://expressjs.com/en/api.html <br/>
+<br/>
 EJS (Embedded Javascript Templating) - https://ejs.co/ <br/>
+Using EJS with Express - https://github.com/mde/ejs/wiki/Using-EJS-with-Express <br/>
+<br/>
 SQL - https://www.w3schools.com/sql/ <br/>
 MongoDB CRUD - https://www.mongodb.com/docs/manual/crud/ <br/>
 MongoDB Drivers - https://www.mongodb.com/docs/drivers/drivers/ <br/>
 MongoDB Drivers for Node earlier version - https://mongodb.github.io/node-mongodb-native/3.5/quick-start/quick-start/ <br/>
 (node.js driver -> quick start / quick references) <br/>
 Mongoose - https://mongoosejs.com/docs/api/model.html <br/>
+<br/>
 Lodash - https://lodash.com/docs/4.17.15
 
 ## Node Tutorial

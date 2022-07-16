@@ -1,6 +1,8 @@
 # Web Development projects
 ## Documentation
 
+Favicons - https://www.favicon.cc/ <br/><br/>
+
 Bootstrap font awesome CDN - https://www.bootstrapcdn.com/fontawesome/ <br/>
 Bootswatch templates - https://bootswatch.com/ <br/>
 CSS selectors - https://www.w3schools.com/cssref/css_selectors.asp <br/>
